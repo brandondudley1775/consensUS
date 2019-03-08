@@ -10,5 +10,5 @@ def log_in():
 	return 'Login page!'
 
 @app.route('/validate_identity')
-def log_in():
+def validate_identity():
 	return 'Identity page!'
