@@ -7,6 +7,7 @@ def hello_world():
 
 @app.route('/login')
 def log_in():
+	user_info = { 'user':'demo', 'pass':'demo' } 
 	return 'Login page!'
 
 @app.route('/validate_identity')
